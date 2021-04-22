@@ -661,11 +661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/My_Gram/Module1_RobertoGuardian/Module1_RobertoGuardian.csproj",
+      "projectUniqueName": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/Module1_RobertoGuardian.csproj",
       "projectName": "Module1_RobertoGuardian",
-      "projectPath": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/My_Gram/Module1_RobertoGuardian/Module1_RobertoGuardian.csproj",
+      "projectPath": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/Module1_RobertoGuardian.csproj",
       "packagesPath": "/Users/robertoguardian154gmail.com/.nuget/packages/",
-      "outputPath": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/My_Gram/Module1_RobertoGuardian/obj/",
+      "outputPath": "/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robertoguardian154gmail.com/.config/NuGet/NuGet.Config"
