@@ -136,3 +136,16 @@ console.log(dateFormat);
 
 var d2 = new Date(2021, 11, 10);
 document.write(d2.toLocaleString("en-US"));
+
+document.write("<br>");
+
+var firstDate = new Date(2001, 12, 10);
+var secondDate = new Date(2004, 4, 6);
+
+if (firstDate > secondDate) {
+    document.write("First Date Is Greater!");
+} else if (firstDate == secondDate) {
+    document.write("The Two Dates Are Equal");
+} else {
+    document.write("Second Date Is greater!");
+}
