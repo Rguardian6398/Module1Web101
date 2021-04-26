@@ -110,3 +110,12 @@ var myBoolean = false;
 console.log(myNumber);
 console.log(myString);
 console.log(myBoolean);
+
+function sumOfNumbers(x, y) {
+    var result = x + y;
+    var result2 = y - x;
+    console.log(result);
+    console.log(result2);
+}
+
+sumOfNumbers(10, 20);
