@@ -119,3 +119,9 @@ function sumOfNumbers(x, y) {
 }
 
 sumOfNumbers(10, 20);
+
+var myString = " Hello, This is my fourth assignment     ";
+var result = myString.substring(0, 3);
+
+console.log(myString);
+console.log(result.trim());
