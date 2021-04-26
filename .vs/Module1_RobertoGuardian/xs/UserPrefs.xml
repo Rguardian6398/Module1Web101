@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{350353BC-3F53-4596-AF08-46B54F03DAFB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Module1_RobertoGuardian/wwwroot/js/Index.js">
     <Files>
-      <File FileName="Module1_RobertoGuardian/Views/Home/Index.cshtml" Line="9" Column="29" />
-      <File FileName="Module1_RobertoGuardian/wwwroot/js/Index.js" Line="118" Column="26" />
+      <File FileName="Module1_RobertoGuardian/Views/Home/Index.cshtml" Line="6" Column="7" />
+      <File FileName="Module1_RobertoGuardian/wwwroot/js/Index.js" Line="46" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
