@@ -102,3 +102,11 @@ var gramSpan =
 gramSpan.innerHTML = "My Gram ";
 
 div.appendChild(gramSpan);
+
+var myNumber = 10;
+var myString = "A String";
+var myBoolean = false;
+
+console.log(myNumber);
+console.log(myString);
+console.log(myBoolean);
