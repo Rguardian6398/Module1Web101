@@ -28,6 +28,11 @@ var td = null;
 var imageSpan = null;
 var counter = 0;
 
+var image = new Image();
+image.imageName = "Image ";
+image.imageId = 1;
+image.imagePath = "This is a path";
+
 for (var i = 1; i <= 25; i++) {
     if (counter == 5) {
         tbody.appendChild(trow);
@@ -37,7 +42,7 @@ for (var i = 1; i <= 25; i++) {
 
     td = document.createElement("td");
     imageSpan = document.createElement("span");
-    imageSpan.innerHTML = "Image " + i;
+    imageSpan.innerHTML = image.imageName + i;
 
     td.appendChild(imageSpan);
     trow.appendChild(td);
