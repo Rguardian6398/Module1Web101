@@ -52,15 +52,24 @@ for (var i = 0; i < 25; i++) {
 
     td = document.createElement("td");
     imageSpan = document.createElement("span");
+    imageSpan.className = "ImageClass";
     imageSpan.innerHTML = image.imageName;
 
     td.appendChild(imageSpan);
     trow.appendChild(td);
     counter++;
 }
+
 tbody.appendChild(trow);
 table.appendChild(tbody);
 div.appendChild(table);
+
+var imageClassList = document.getElementsByClassName("ImageClass");
+for (var x = 0; x < 25; x++) {
+    imageClassList[x].onclick = function () {
+        alert("You Have Clicked On An Image");
+    }
+}
 
 var lineBreak2 =
     document.createElement("br");
