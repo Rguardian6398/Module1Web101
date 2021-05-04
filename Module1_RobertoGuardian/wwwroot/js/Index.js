@@ -4,11 +4,14 @@ span.innerHTML = "Mr Gram";
 var div = document.getElementById("MyInstagramContainer");
 div.appendChild(span);
 
+var a = document.createElement("a");
+a.setAttribute("href", "Home/LogUser");
 var logInButton =
     document.createElement("button");
 logInButton.innerHTML = "Log In";
+a.appendChild(logInButton);
 
-div.appendChild(logInButton);
+div.appendChild(a);
 
 var signUpButton =
     document.createElement("button");

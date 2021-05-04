@@ -28,6 +28,18 @@ namespace Module1_RobertoGuardian.Controllers
             return View();
         }
 
+        public IActionResult LogUser()
+        {
+            return View();
+        }
+
+        public IActionResult LogIn(string User, string Password)
+        {
+            string result = $"User is: {User} from form and password is: {Password} from form";
+
+            return Content(result);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
