@@ -157,7 +157,7 @@ console.log(dateFormat);
 var d2 = new Date(2021, 11, 10);
 document.write(d2.toLocaleString("en-US"));
 
-document.write("<br>");*/
+document.write("<br>");
 
 var firstDate = new Date(2001, 12, 10);
 var secondDate = new Date(2004, 4, 6);
@@ -168,4 +168,23 @@ if (firstDate > secondDate) {
     document.write("The Two Dates Are Equal");
 } else {
     document.write("Second Date Is greater!");
+}*/
+
+var divThemeContainer = document.getElementById("ThemeContainer");
+var select = document.createElement("select");
+var option = document.createElement("option");
+option.innerHTML = "Light Theme";
+select.appendChild(option);
+
+option = document.createElement("option");
+option.innerHTML = "Dark Theme";
+select.appendChild(option);
+divThemeContainer.appendChild(select);
+
+var span = document.createElement("span");
+span.innerHTML = "Change Theme:";
+divThemeContainer.appendChild(span);
+
+select.onchange = function () {
+    alert("You Have Changed The Theme");
 }

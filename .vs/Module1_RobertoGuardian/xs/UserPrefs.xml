@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{350353BC-3F53-4596-AF08-46B54F03DAFB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Module1_RobertoGuardian/wwwroot/js/Index.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Module1_RobertoGuardian/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Module1_RobertoGuardian/Views/Home/Index.cshtml" Line="8" Column="20" />
-      <File FileName="Module1_RobertoGuardian/wwwroot/js/Index.js" Line="55" Column="42" />
+      <File FileName="Module1_RobertoGuardian/wwwroot/js/Index.js" Line="69" Column="26" />
       <File FileName="Module1_RobertoGuardian/wwwroot/js/Objects.js" />
+      <File FileName="Module1_RobertoGuardian/Views/Shared/_Layout.cshtml" Line="22" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,13 +16,13 @@
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
-                <Node name="js" expanded="True">
-                  <Node name="Index.js" selected="True" />
-                </Node>
+                <Node name="js" expanded="True" />
                 <Node name="lib" expanded="True" />
               </Node>
             </Node>
