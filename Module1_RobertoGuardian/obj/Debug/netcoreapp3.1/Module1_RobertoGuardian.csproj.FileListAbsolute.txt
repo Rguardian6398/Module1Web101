@@ -703,3 +703,4 @@
 /Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/obj/Debug/netcoreapp3.1/Module1_RobertoGuardian.pdb
 /Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/obj/Debug/netcoreapp3.1/Module1_RobertoGuardian.genruntimeconfig.cache
 /Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/obj/Debug/netcoreapp3.1/Razor/Views/Home/LogUser.cshtml.g.cs
+/Users/robertoguardian154gmail.com/Desktop/WEB 101 ShoppingCart/InstagramProject_RG /Module1_RobertoGuardian/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs

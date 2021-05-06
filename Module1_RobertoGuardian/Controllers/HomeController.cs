@@ -28,6 +28,11 @@ namespace Module1_RobertoGuardian.Controllers
             return View();
         }
 
+        public IActionResult Register()
+        {
+            return View();
+        }
+
         public IActionResult LogUser()
         {
             return View();

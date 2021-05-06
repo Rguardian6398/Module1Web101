@@ -16,8 +16,11 @@ div.appendChild(a);
 var signUpButton =
     document.createElement("button");
 signUpButton.innerHTML = "Sign Up";
+var a = document.createElement("a");
+a.setAttribute("herf", "/Home/Register");
+a.appendChild(signUpButton);
 
-div.appendChild(signUpButton);
+div.appendChild(a);
 
 var lineBreak =
     document.createElement("br");
